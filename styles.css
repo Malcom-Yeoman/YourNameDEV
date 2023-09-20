@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    font-weight: bolder;
+}
+.title-2 {
+    font-weight: 500;
+}
+.material-symbols-outlined {
+    vertical-align: top;
+    margin-right: 5px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.large-icon {
+    font-size: 3rem;  
+    margin: 10px;   
+}
+.medium-icon {
+    font-size: 1.5rem;  
+}
+.hover-text:hover {
+    color: #007BFF;
+    cursor: pointer;
+}
+.custom-title-top {
+    display: inline-block;
+    background-color: #FFE4B5; 
+    color: #FF8C00; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.custom-title-new {
+    display: inline-block;
+    background-color: #ffb5f8; 
+    color: #ff0088; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-price {
+    font-size: 28px;
+    font-weight: bold;
+}
+.period {
+    font-size: 16px;
+    color: #555;
+}
+.fa-li {
+    color: #007bff;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* COULEURS-ICONES */
+/* Couleur pour l'icône HTML5 */
+.fa-html5 {
+    color: #E44D26;
+}
+/* Couleur pour l'icône CSS3 */
+.fa-css3-alt {
+    color: #0170BA;
+}
+/* Couleur pour l'icône JavaScript */
+.fa-square-js {
+    color: #F7E018;
+}
+/* Couleur pour l'icône PHP */
+.fa-php {
+    color: #787CB5;
+}
+/* Couleur pour l'icône Symfony */
+.fa-symfony {
+    color: #000000; 
+}
+/* Couleur pour l'icône Laravel */
+.fa-laravel {
+    color: #FF2D20;
+}
+/* Couleur pour l'icône React */
+.fa-react {
+    color: #61DBFB;
+}
+
+/* RESPONSIVE */
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 991.98px) {
+    .responsive-card img.responsive-img {
+        width: 70px;
+        float: left;
+        margin-right: 15px;
+    }
+    .responsive-card .card-body {
+        clear: none;
+    }
+}
